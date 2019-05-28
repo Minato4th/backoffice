@@ -1,1 +1,1 @@
-web: java -jar target/backoffice-1.0-SNAPSHOT
+web: java -jar target/backoffice-2.1.3.RELEASE.jar
