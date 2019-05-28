@@ -54,7 +54,7 @@ public class MainRestController implements MainAPI {
 //                .build();
 //        userDao.persist(user);
 //        userDao.delete(user);
-        return userDao.findOne(1L).toString();
+        return userDao.getOne(1L).toString();
     }
 
     @GetMapping(path = "getUser")
@@ -67,7 +67,7 @@ public class MainRestController implements MainAPI {
     @GetMapping(path = "getFAQ")
     @Override
     public FAQDto getFAQ() {
-        FAQ faq = faqDao.findOne(1L);
+        FAQ faq = faqDao.getOne(1L);
         return faqToDtoConverter.convert(faq);
     }
 
@@ -91,7 +91,7 @@ public class MainRestController implements MainAPI {
 //
 //        phonesDao.save(phones);
 
-        Polyclinics polyclinics = polyclinicsDao.findOne(1l);
+        Polyclinics polyclinics = polyclinicsDao.getOne(1l);
         return polyclinicsToDtoConverter.convert(polyclinics);
     }
 

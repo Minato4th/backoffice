@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserDto findUserById(final Long Id) {
-        return userToDtoConverter.convert(userDao.findOne(Id));
+        return userToDtoConverter.convert(userDao.getOne(Id));
     }
 
     @Override

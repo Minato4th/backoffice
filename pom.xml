@@ -73,17 +73,17 @@
         <!--<artifactId>spring-boot-devtools</artifactId>-->
         <!--<optional>true</optional>-->
         <!--</dependency>-->
-        <dependency>
-            <groupId>event</groupId>
-            <artifactId>com.backoffice.transport</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <!--<exclusions>-->
-            <!--<exclusion>-->
-            <!--<groupId>org.apache.tomcat</groupId>-->
-            <!--<artifactId>tomcat-util</artifactId>-->
-            <!--</exclusion>-->
-            <!--</exclusions>-->
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>event</groupId>-->
+            <!--<artifactId>com.backoffice.transport</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+            <!--&lt;!&ndash;<exclusions>&ndash;&gt;-->
+            <!--&lt;!&ndash;<exclusion>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>org.apache.tomcat</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>tomcat-util</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;</exclusion>&ndash;&gt;-->
+            <!--&lt;!&ndash;</exclusions>&ndash;&gt;-->
+        <!--</dependency>-->
 
         <!--PostgreSQL-->
         <dependency>
